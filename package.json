@@ -2,6 +2,7 @@
   "name": "crud_project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://juzgun.github.io/CRUD_ToDoList/",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",
@@ -21,7 +22,9 @@
     "start": "concurrently \"react-scripts start\" \"json-server --watch db.json --port 3001\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "concurrently": "^5.3.0",
+    "gh-pages": "^3.2.3"
   }
 }
