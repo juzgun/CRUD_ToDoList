@@ -1,33 +1,44 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { TextField, Button } from '@material-ui/core'
-import * as axios from 'axios';
-import { useEffect } from 'react';
+import TaskContext from './context/taskContext';
 
-const Input = (props) => {
+function Input() {
+    const [text, setText] = useState("");
+    const { addTask } = useContext(TaskContext);
+
+    function submitTask(e) {
+        e.preventDefault();
+        if (text.trim()) {
+            addTask(text);
+            setText("");
+        }
+    }
+
 
     return (
         <form
             style={{ width: "100%" }}
-            onSubmit={submit}
+            onSubmit={submitTask}
+            className="inputForm"
         >
             <TextField
                 id="outlined-basic"
                 variant="outlined"
                 label="Task"
-                className="input"
-                value={value}
+                className="inputText"
+                value={text}
                 onChange={(e) => setText(e.target.value)}
             />
             <Button
                 variant="outlined"
-                className="add-btn"
+                className="addBtn"
                 style={{
-                    color: "lightgreen",
-                    border: "1px solid lightgreen",
-                    marginLeft: "3%",
+                    color: "#00c600",
+                    border: "2px solid #00c600",
+                    marginLeft: "10px",
                 }}
                 type="submit"
-                onClick={submit}
+                onClick={submitTask}
             >
                 ADD
             </Button>

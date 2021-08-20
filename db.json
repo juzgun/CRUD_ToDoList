@@ -1,16 +1,34 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "task": "task1"
-        },
-        {
-            "id": 2,
-            "task": "task2"
-        },
-        {
-            "id": 3,
-            "task": "task3"
-        }
-    ]
+  "tasks": [
+    {
+      "id": 1,
+      "text": "task1",
+      "done": true
+    },
+    {
+      "id": 2,
+      "text": "task2",
+      "done": false
+    },
+    {
+      "id": 3,
+      "text": "task3",
+      "done": true
+    },
+    {
+      "id": 4,
+      "text": "task4",
+      "done": false
+    },
+    {
+      "id": 5,
+      "text": "task5",
+      "done": true
+    },
+    {
+      "id": 1629458782788,
+      "text": "task6",
+      "done": false
+    }
+  ]
 }

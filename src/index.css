@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  
+}
+
+.taskListWrapper {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.taskList {
+  list-style: none;
+  width: 100%;
+  padding: .5rem .5rem;
+  padding-left: 10px;
+}
+
+.inputText {
+  width: 70%;
+}
+
+.inpuTextArea {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.addBtn {
+  color: #00c600;
+  border: 2px solid #00c600;
+  width: 27%;
+  height: 4em;
+}
+
+.task {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteBtn {
+  padding: 0;
+  font-size: 2rem;
+}
+
+.textEditForm {
+  display: inherit;
+}
