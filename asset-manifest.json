@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/footbalStat2021/static/css/main.c2b0be48.chunk.css",
+    "main.js": "/footbalStat2021/static/js/main.0a0e6637.chunk.js",
+    "main.js.map": "/footbalStat2021/static/js/main.0a0e6637.chunk.js.map",
+    "runtime-main.js": "/footbalStat2021/static/js/runtime-main.8c414fde.js",
+    "runtime-main.js.map": "/footbalStat2021/static/js/runtime-main.8c414fde.js.map",
+    "static/js/2.bb2fd78f.chunk.js": "/footbalStat2021/static/js/2.bb2fd78f.chunk.js",
+    "static/js/2.bb2fd78f.chunk.js.map": "/footbalStat2021/static/js/2.bb2fd78f.chunk.js.map",
+    "static/js/3.03fc6ab6.chunk.js": "/footbalStat2021/static/js/3.03fc6ab6.chunk.js",
+    "static/js/3.03fc6ab6.chunk.js.map": "/footbalStat2021/static/js/3.03fc6ab6.chunk.js.map",
+    "index.html": "/footbalStat2021/index.html",
+    "static/css/main.c2b0be48.chunk.css.map": "/footbalStat2021/static/css/main.c2b0be48.chunk.css.map",
+    "static/js/2.bb2fd78f.chunk.js.LICENSE.txt": "/footbalStat2021/static/js/2.bb2fd78f.chunk.js.LICENSE.txt",
+    "static/media/loading.0c0f9572.svg": "/footbalStat2021/static/media/loading.0c0f9572.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c414fde.js",
+    "static/js/2.bb2fd78f.chunk.js",
+    "static/css/main.c2b0be48.chunk.css",
+    "static/js/main.0a0e6637.chunk.js"
+  ]
+}
